@@ -25,9 +25,4 @@ MNE compatible format (mne-hcp), second, MNE-BIDS (Appelhoff et al. 2019;
 MNE-BIDS_docu) to ‘BIDS-ify’ the data, and finally PyBIDS to query and manipulate the
 dataset (pybids_docu).
 
-Results: Although some of the MNE-Python modules employed are no longer maintained,
-and can be therefore at first challenging to work with, overall the integration of the
-computational tools reported provides an effective way to interact with the HCP-MEG data.
-This project offers an example of a fully reproducible and version-controlled workflow for
-the HCP-MEG data, from downloading, preparing, and analyzing this dataset potentially all
-the way to storing the results and code in a public repository.
+Results: Overall the integration of the computational tools reported provides an effective way to interact with the HCP-MEG data. This project provides a fully reproducible and version-controlled workflow for the HCP-MEG data, from downloading, preparing, and analyzing this dataset potentially all the way to storing the results and code in a public repository.
