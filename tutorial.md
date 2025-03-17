@@ -90,7 +90,7 @@ $ python -c 'import mne_bids'
 
 ## 5. Use MNE-HCP to format the data in the way MNE-Python likes it
 
-### 5.1 Unzip all the files or run 'main_loop.sh' if you downloaded the data using Aspera connect
+### 5.1 Unzip all the files or run 'unzip_data_mne-hcp.sh' if you downloaded the data using Aspera connect
 
 ```sh
 $ bash ./main_loop_mne-hcp.sh
