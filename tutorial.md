@@ -18,7 +18,7 @@ $ aws --version
 $ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 ```
 
-## 1. Obtain the AWS HCP CREDENTIALS and validate your account (you will only be asked once on your local machine from the CLI)
+## 1. Obtain the AWS HCP credentials and validate your account (you will only be asked once on your local machine from the CLI)
 
 ```sh
 $ aws configure
@@ -90,19 +90,13 @@ $ python -c 'import mne_bids'
 
 ## 5. Use MNE-HCP to format the data in the way MNE-Python likes it
 
-### 5.1 Run 'main_loop.sh'
+### 5.1 Unzip all the files or run 'main_loop.sh' if you downloaded the data using Aspera connect
 
 ```sh
 $ bash ./main_loop_mne-hcp.sh
 ```
 
-### 5.2 Use the function make anatomy to map the data to MNE compatible coordinate system and convert it to BIDS format
-
-```sh
-# add your root folder to the Python path (e.g., $HOME/Desktop/Think_Open_initiative)
-
-# run 'make_anatomy.py' from your IDE of choice (e.g., Spyder)
-```
+### 5.2 Use the function make anatomy (see: https://github.com/mne-tools/mne-hcp/blob/master/examples/make_mne_anatomy.py) to map the data to MNE compatible coordinate system and convert it to BIDS format
 
 ### 5.3 (Alternatively) Run MNE-BIDS from the CLI
 
