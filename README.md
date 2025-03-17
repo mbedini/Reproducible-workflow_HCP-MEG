@@ -1,6 +1,6 @@
 # Reproducible-workflow-HCP-MEG-subjects
 
-![Project Figure](path/to/figure.png)  
+![Project Figure](HCP-MEG_workflow.png)  
 *HCP-MEG example workflow*
 
 ### Disclaimer: 
