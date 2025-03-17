@@ -31,5 +31,4 @@ Next, I created a conda virtual environment where I installed all the Python pac
 ## Results
 Overall, the integration of the computational tools reported provides an effective way to interact with the HCP-MEG data. This project provides a fully reproducible and version-controlled workflow for the HCP-MEG data, from downloading, preparing, and analyzing this dataset potentially all the way to storing the results and code in a public repository.
 
-### Jump to the tutorial
-([HCP-MEG_tutorial](https://github.com/mbedini/Reproducible-workflow_HCP-MEG/blob/main/tutorial.md)).
+### Jump straight into the tutorial: [HCP-MEG_tutorial](https://github.com/mbedini/Reproducible-workflow_HCP-MEG/blob/main/tutorial.md).
